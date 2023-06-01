@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <style>
+        body{
+            background-color: #8888fb;
+        }
+        .formulario {
+            padding: 20px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            width: 500px;
+            height: 200px;
+        }
+        .botoes{
+            margin: 20px 30px;
+            justify-content: space-between;
+        }
+        .relogio{
+            margin: 0px;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Cronômetro</h1>
+        <p class="relogio">00:00:00</p>
+        <section class="botoes">
+            <button class="iniciar">Iniciar</button>
+            <button class="pausar">Pausar</button>
+            <button class="zerar">Zerar</button>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
